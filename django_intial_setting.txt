@@ -1,0 +1,46 @@
+0. Install pip and python before virtualenv
+
+
+1. Install virtaulenv
+pip install virtualenv
+
+2. Creating venv
+virtualenv 2nd_project
+
+virtualenv venv_name
+
+https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/
+
+3. Activating venv
+base_path\2nd_project\Scripts\activate.bat
+
+base_path---> venv named folder---> Scripts---> activate.bat
+
+4. check for python
+python
+
+
+5. Installing Django in venv --->after activating venv
+python -m pip install Django
+
+
+6. Checking Django is installed or not
+
+after pythin command line
+import django
+print(django.get_version())
+
+python -m django --version
+
+7. Creating new Django project 
+django-admin startproject hello_world
+
+8. To run project
+python manage.py runserver
+
+
+
+
+
+
+
